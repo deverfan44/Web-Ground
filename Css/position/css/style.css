@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.head_title{
+    background-color: #34495e;
+    padding: 20px 0px;
+}
+.head_title h2{
+    text-align: center;
+    color: white;
+}
+.section_1{}
+.section_1 .container_div_1 {
+    width: 80%;
+    border: 2px solid;
+    margin: 20px auto;
+}
+.container_div_1 .div_1 {
+    background-color: #e74c3c;
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+}
+.container_div_1 .div_2{
+    background-color: #e67e22;
+}
+.container_div_1 .div_3 {
+    background-color: #f1c40f;
+    position: relative;
+    left: 50%;
+    bottom: 0;
+}
+.container_div_1 div{
+    width: 200px;
+    height: 200px;
+}
+.section_1_title{
+    padding: 20px 0px;
+}
+.section_1_title h2{
+    text-align: center;
+}
+
+
+.section_2{}
+.container_div_2{
+    width: 80%;
+    border: 2px solid;
+    margin: 20px auto;
+}
+
+.container_div_2 div{
+    width: 250px;
+    height: 150px;
+}
+.container_div_2 .div_1 {
+    background-color: #e67e22;
+    position: absolute;
+    right: 0px;
+}
+.container_div_2 .pack_div {
+    border: 3px solid black;
+    box-sizing: content-box !important;
+    position: relative;
+}
+.container_div_2 .div_2 {
+    background-color: #e74c3c;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+.container_div_2 .div_3{
+    background-color: #34495e;
+}
+.section_2_title{
+    padding: 20px 0px;
+}
+.section_2_title h2{
+    text-align: center;
+}
+
+
+
+
+.section_3{}
+.section_3_title{
+    padding: 20px 0px;
+}
+.section_3_title h2{
+    text-align: center;
+}
+.container_div_3{
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #34495e;
+    position: relative;
+}
+.container_div_3 .div_1{
+    left: 0;
+    top: 0;
+}
+.container_div_3 .div_2{
+    right: 0;
+    top: 0;
+}
+.container_div_3 .div_3{
+    left: 0;
+    bottom: 0;
+}
+.container_div_3 .div_4{
+    right: 0;
+    bottom: 0;
+}
+.container_div_3 div{
+    width: 100px;
+    height: 100px;
+    background-color: #e67e22;
+    position: absolute;
+}
+
+
+
+
+
+.fixed {
+    background-color: rebeccapurple;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.fixed a {
+    color: wheat;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
