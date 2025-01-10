@@ -193,3 +193,37 @@
     width: 187px;
 }
 .frame_div > :nth-child(2) {}
+
+
+.overflow_div {
+    width: 300px;
+    height: 300px;
+    background: #3b1006;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+}
+.overflow_div > .animation_div {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #066c00;
+    position: absolute;
+    right: 100%;
+    transition: .2s;
+}
+
+.overflow_div:hover .animation_div{
+    right: 0%;
+}
+.red_div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
