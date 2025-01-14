@@ -136,3 +136,18 @@
     font-size: 26px;
     text-align: center;
 }
+
+
+
+/* Object Fit */
+.object_img {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+}
+.object_img img {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    object-position: right bottom;
+}

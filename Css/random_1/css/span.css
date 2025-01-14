@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    color: green;
+    text-align: center;
+    margin: 30px 0px;
+}
+h1 .red{
+    color: red;
+}
+h1 .twopoint{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 50px;
+    color: rebeccapurple;
+}
+h2 span{
+    color: orange;
+}
