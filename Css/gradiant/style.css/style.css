@@ -144,3 +144,30 @@
 .font_size .p_8{
     font-size: xx-large;
 }
+
+
+
+.font_size_2{}
+.font_size_2>p{
+    font-size: larger;
+}
+.font_size_2 .one{
+    font-size: larger;
+}
+.font_size_2 .one p{
+    font-size: larger;
+}
+
+.font_size_3 {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+.font_size_3 p {
+    font-size: 1.2em;
+}
+.font_size_4 {
+    font-size: 20px;
+}
+.font_size_4 p{
+    font-size: 1.2em;
+}
