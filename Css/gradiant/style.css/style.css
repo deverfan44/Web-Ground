@@ -108,3 +108,39 @@
 .text_div p{
     text-indent: 3rem;
 }
+
+
+.font_size{
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+.sm_p_1{
+    margin-bottom: 10px;
+}
+.font_size .p_1{
+    /* defalut  */
+    font-size:medium;
+}
+.font_size .p_2{
+    font-size: small;
+}
+.font_size .p_3{
+    font-size: x-small;
+}
+.font_size .p_4{
+    font-size: xx-small;
+}
+.font_size .p_5{
+    font-size: large;
+}
+.font_size .p_6{
+    font-size: larger;
+}
+.font_size .p_7{
+    font-size: x-large;
+}
+.font_size .p_8{
+    font-size: xx-large;
+}
