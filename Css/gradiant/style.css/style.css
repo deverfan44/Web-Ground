@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.linear, .redial{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    width: 80%;
+    margin: 60px auto;
+}
+.linear_title h1, .radial_title h1{
+    text-align: center;
+}
+.sm_div_1{
+    flex-basis: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.linear .div1{
+    background-image: linear-gradient(red,blue);
+}
+.linear .div2{
+    background-image: linear-gradient(red,10%,blue);
+}
+.linear .div3{
+    background-image: linear-gradient(to right top,red,20%,blue);
+}
+.linear .div4{
+    background-image: linear-gradient(to right, red 10%,blue 10%);
+}
+.linear .div5{
+    background-image: linear-gradient(to right, red 50%, blue 50%);
+
+    /* simillar line  */
+    /* background-image: linear-gradient(to right, red 0% 50%, blue 50% 100%); */ 
+}
+
+.linear .div6{
+    background-image: linear-gradient(to right,red 0% 20%, blue 20% 40%, red 40% 60%, blue 60% 80%, red 80% 100%);
+}
+
+.linear .div7{
+    background-image: linear-gradient(to right, red 0% 20%, blue 20% 40%);
+    /* it's covert 40% to 100%. It is natural baheviour */
+}
+.linear .div8{
+    background-image: repeating-linear-gradient(to right, red 0% 20%, blue 20% 40%);
+}
+.linear .div9{
+    background-image: linear-gradient(red,20%, transparent);
+}
+
+.redial .div1{
+    background-image: radial-gradient(red, blue);
+}
+.redial .div2{
+    background-image: radial-gradient(red,20%,blue);
+}
+.redial .div3{
+    background-image: radial-gradient(red 0% 30%, blue 30% 100%);
+}
+.redial .div4{
+    background-image: radial-gradient(circle, red 30%, rgb(0, 158, 16) 30%);
+}
+.redial .div5{
+    background-image: radial-gradient(circle, red, green, blue);
+}
+.redial .div6{
+    background-image: radial-gradient(at top center,red,blue);
+}
+.redial .div7{
+    background-image: radial-gradient(at right top, red, blue, yellow);
+}
+.redial .div8{
+    background-image: radial-gradient(at 20% 40%,red 20%,blue 20%);
+}
+.redial .div9{
+    background-image: radial-gradient(at 20% 40%,red,blue);
+}
+.redial .div10{
+    background-image: radial-gradient(closest-side at 20% 40%,red,blue);
+}
+.redial .div11{
+    background-image: repeating-radial-gradient(red 0% 10%, blue 10% 20%)
+}
+.redial .div12{
+    background-image: repeating-radial-gradient(at 30% 30%,red 0% 10%, blue 10% 20%)
+}
+
+
+
+/* Text Indent  */
+.text_div{
+    width: 50%;
+    margin: 50px auto;
+    border: 2px groove black;
+    padding: 10px;
+}
+.text_div p{
+    text-indent: 3rem;
+}
