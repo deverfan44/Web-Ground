@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-
+.lottifile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .linear, .redial, .conic{
     display: flex;
     justify-content: space-between;
