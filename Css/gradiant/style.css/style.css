@@ -5,7 +5,7 @@
 }
 
 
-.linear, .redial{
+.linear, .redial, .conic{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -97,6 +97,39 @@
 }
 
 
+/* conic gradient  */
+.conic .div1{
+    background-image: conic-gradient(red,blue);
+}
+.conic .div2{
+    background-image: conic-gradient(from 45deg, red,blue);
+}
+.conic .div3{
+    background-image: conic-gradient(from 90deg, red,blue);
+}
+.conic .div4{
+    background-image: conic-gradient(red 0deg 90deg,blue 90deg 360deg);
+}
+.conic .div5{
+    background-image: conic-gradient(at 30% 30%,red,blue);
+}
+.conic .div6{
+    background-image: conic-gradient(from 180deg at 30% 30%,red,blue);
+}
+.conic .div7{
+    background-image: conic-gradient(red 0deg 90deg,blue 90deg 180deg, red 180deg 270deg, blue 270deg 360deg);
+}
+.conic .div8{
+    background-image: conic-gradient(red 0deg 90deg,blue 90deg 180deg, red 180deg 270deg, blue 270deg 360deg);
+    background-size: 50% 50%;
+}
+.conic .div9{
+    background-image: conic-gradient(red,green,blue);
+}
+.conic .div10{
+    background-image: conic-gradient(red,green,red);
+}
+
 
 /* Text Indent  */
 .text_div{
@@ -170,4 +203,19 @@
 }
 .font_size_4 p{
     font-size: 1.2em;
+}
+
+
+
+.linear_img {
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+    background: linear-gradient(#20fc0d70, #ff333359), url(../images/back_img.jpg) no-repeat center center / cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
 }
